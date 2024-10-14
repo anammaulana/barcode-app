@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Antrian Pelanggan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aplikasi Antrian Pelanggan</h1>
+
+    <section>
+        <h2>Generate QR Code</h2>
+        <form id="generate-qr-form">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Generate QR Code</button>
+        </form>
+        <div id="qr-code-result"></div>
+    </section>
+
+    <section>
+        <h2>Scan QR Code</h2>
+        <form id="scan-qr-form">
+            <label for="qr-code">QR Code Data:</label>
+            <input type="text" id="qr-code" required>
+            <button type="submit">Scan QR Code</button>
+        </form>
+        <div id="scan-result"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# Diabaikan oleh semua sistem operasi
+/tmp
+/temp
+.DS_Store
+
+# Diabaikan oleh specific editor
+*.swp
+*.bak
+
+# Diabaikan oleh bahasa pemrograman tertentu
+node_modules/
+npm-debug.log*
